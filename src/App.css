@@ -1,0 +1,125 @@
+html,
+body {
+  background-color: #18181c;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+* {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+.App {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 1400px;
+}
+
+.leftBar {
+  width: 30%;
+}
+
+.card {
+  background-color: #35383a;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #494161;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.carousel {
+  display: flex;
+  gap: 2.5%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  margin-top: 15px;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  margin-top: 10px;
+  height: 10px;
+  background-color: #414141;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #252325;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.contactWay {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: left;
+  align-items: center;
+}
+
+.grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 1em;
+}
+
+.grid-item {
+  background-color: #494161;
+  border-radius: 5px;
+  text-align: center;
+  padding: 1em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 20px 20px rgba(0, 0, 0, 0.05);
+}
+
+.bubble,
+.details {
+  animation: animatedImage 0.15s linear;
+}
+
+@keyframes animatedImage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 760px) {
+  .App {
+    position: relative;
+    margin: 5px;
+  }
+
+  .leftBar {
+    width: 100%;
+  }
+  .content {
+    display: block !important;
+  }
+}

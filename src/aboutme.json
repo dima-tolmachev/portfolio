@@ -1,0 +1,213 @@
+{
+  "programming-languages": [
+    {
+      "title": "TypeScript and JavaScript",
+      "picPath": "./pics/pls/ts.svg"
+    },
+    {
+      "title": "Python",
+      "picPath": "./pics/pls/python.svg"
+    },
+    {
+      "title": "C programming language",
+      "picPath": "./pics/pls/c.svg"
+    },
+    {
+      "title": "Scheme (dialect of Lisp)",
+      "picPath": "./pics/pls/scheme.svg"
+    }
+  ],
+  "technologies": [
+    {
+      "title": "Node JS (javascript runtime)",
+      "picPath": "./pics/technologies/nodejs.svg"
+    },
+
+    {
+      "title": "Express JS",
+      "picPath": "./pics/technologies/express.svg"
+    },
+    {
+      "title": "Mongo DB (NO-SQL database)",
+      "picPath": "./pics/technologies/mongo.svg"
+    },
+    {
+      "title": "Postgre (SQL database)",
+      "picPath": "./pics/technologies/postgre.svg"
+    },
+    {
+      "title": "React JS",
+      "picPath": "./pics/technologies/react.png"
+    },
+    {
+      "title": "Docker",
+      "picPath": "./pics/technologies/docker.svg"
+    },
+    {
+      "title": "Ubuntu Server (UNIX based OS)",
+      "picPath": "./pics/technologies/ubuntu.svg"
+    },
+    {
+      "title": "Git",
+      "picPath": "./pics/technologies/git.svg"
+    },
+    {
+      "title": "NGINX",
+      "picPath": "./pics/technologies/nginx.svg"
+    }
+  ],
+  "contacts": [
+    {
+      "title": "Telegram",
+      "value": "@dimatolmachev",
+      "picPath": "./pics/contacts/telegram.svg"
+    },
+    {
+      "title": "Discord",
+      "value": "AzesT#6065",
+      "picPath": "./pics/contacts/discord.svg"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Does it count?",
+      "brief": "This site. Is it also counts as an project?",
+      "purpose": "Create a showcase for my projects",
+      "description": [
+        "I have built a site portfolio (this one that you are visiting right now) on TypeScript using the web framework React JS for collecting my projects in one place with descriptions and pictures. You are welcome, enjoy.",
+        "It is kinda weird to add a screenshot of the site you are on now but..."
+      ],
+      "links": [],
+      "stack": ["TypeScript", "React JS", "Github Pages"],
+      "source": "https://github.com/dima-tolmachev/personal",
+      "preview": "./pics/projects/personal.png",
+      "images": ["./pics/projects/recursion.png"],
+      "type": 3,
+      "id": 1
+    },
+    {
+      "title": "Degosh",
+      "brief": "It is a bot for buying limited sneakers & NFTs",
+      "description": [
+        "This application helps people to buy collectible staff. It is a bot for buying limited sneakers & NFTs. Degosh used to support a lot of retailers such as supreme, Adidas/Yeezy, Kith and Shopify. Application much increased chances to let users buy whatever they want on special releases",
+        "We got a lot of positive feedback from users who successfully bought limited items using this bot (you can see users' reports on our discord on the #success channel).",
+        "I built an authentication system for this bot using Node JS and Express JS and MongoDB - a simple and secure system, applied to auth system discord bot and web application (the bot). It was hosted on Ubuntu Server, mostly using JavaScript",
+        "The project has been sold to Quasar."
+      ],
+      "links": [
+        {
+          "label": "Project's discord",
+          "url": "https://discord.gg/7zQmADgAQz"
+        },
+        {
+          "label": "Ouasar (the company that bought the project)",
+          "url": "https://quasarcook.com/."
+        }
+      ],
+      "stack": [
+        "JavaScript",
+        "Node JS",
+        "Express JS",
+        "Angular JS",
+        "Mongo DB",
+        "Ubuntu Server",
+        "NGINX"
+      ],
+      "source": "",
+      "preview": "./pics/projects/degosh.png",
+      "images": ["./pics/projects/degosh.png"],
+      "type": 2,
+      "id": 2
+    },
+    {
+      "title": "Linear algebra library",
+      "brief": "A collection of Vector and Matrix classes",
+      "description": [
+        "It is a library written in TypeScript that includes two classes: Vector and Matrix and some methods inside them to do calculations. Also, a bunch of Mocha/Chai tests is available. This package has been published into npm."
+      ],
+      "links": [
+        {
+          "label": "Documentation",
+          "url": "https://github.com/dima-tolmachev/typescript-linear-algebra/blob/main/README.md"
+        },
+        {
+          "label": "NPM",
+          "url": "https://www.npmjs.com/package/lats"
+        }
+      ],
+      "stack": ["TypeScript", "Node JS", "Mocha + Chai", "Webpack", "NPM"],
+      "source": "https://github.com/dima-tolmachev/typescript-linear-algebra",
+      "preview": "./pics/projects/lats.png",
+      "images": ["./pics/projects/lats.png"],
+      "type": 3,
+      "id": 3
+    },
+    {
+      "title": "Shelter+ Extension",
+      "brief": "It used to buy NFTs and limited sneakers",
+      "description": [
+        "It is an extension for Google Chrome browser used to automatically purchase limited sneakers and NFTs.",
+        "Shelter+ is a private discord community of people interested in collecting or reselling limited stuff. This program is available only for members of this community."
+      ],
+      "links": [
+        {
+          "label": "Shelter+ (the customer company)",
+          "url": "https://sheltercook.plus/"
+        }
+      ],
+      "stack": [
+        "JavaScript",
+        "Node JS",
+        "Express JS",
+        "Mongo DB",
+        "Ubuntu Server",
+        "NGINX"
+      ],
+      "source": "",
+      "preview": "./pics/projects/shelterplus.png",
+      "images": ["./pics/projects/shelterplus.png"],
+      "type": 2,
+      "id": 4
+    },
+    {
+      "title": "Web scrapers",
+      "brief": "Checking availiablility of products on retailers' sites",
+      "description": [
+        "I built some web scrapers used to notify members of the Quasar private discord community when XBOXes and PS5s (and other short-supply goods) are available. Users successfully buy whatever they want with this custom notification system on every restock.",
+        "Most of them are written in Python using the request library."
+      ],
+      "links": [
+        {
+          "label": "Quasar (the customer company)",
+          "url": "https://quasarcook.com/"
+        }
+      ],
+      "stack": ["Python", "Node JS", "Puppeteer", "Postman"],
+      "source": "",
+      "preview": "./pics/projects/monitors.png",
+      "images": ["./pics/projects/webscrapers.gif"],
+      "type": 2,
+      "id": 5
+    },
+    {
+      "title": "Sorting visualization",
+      "brief": "Implemented 4 different sorting algorithms",
+      "description": [
+        "I build a web-based application to animate some sorting algorithms.",
+        "It works on the following sorting algorithms: Bubble sort, Quick sort, Selection sort and Merge sort."
+      ],
+      "links": [
+        {
+          "label": "Try now",
+          "url": "https://dima-tolmachev.github.io/react-sorting-visualization/"
+        }
+      ],
+      "stack": ["TypeScript", "Node JS", "React"],
+      "source": "https://github.com/dima-tolmachev/react-sorting-visualization",
+      "preview": "./pics/projects/sorting.png",
+      "images": ["./pics/projects/sorting.png"],
+      "type": 3,
+      "id": 6
+    }
+  ]
+}
