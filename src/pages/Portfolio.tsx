@@ -1,6 +1,6 @@
-import '../App.css';
+import '../App.scss';
 import Projects from '../components/projects/Projects';
-import Introduction from '../components/introduction/Introduction';
+import Introduction from '../components/Introduction/Introduction';
 
 const Portfolio = () => {
   return (

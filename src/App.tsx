@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Portfolio from './pages/Portfolio';
 
@@ -7,6 +7,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Portfolio />} />
+        <Route path="*" element={<Portfolio />} />
       </Routes>
     </BrowserRouter>
   );

@@ -20,7 +20,7 @@ const Grid = () => {
     <div className="grid">
       {projects.map((project, index) => (
         <Card
-          className={'bubble'}
+          className='bubble'
           onClick={() => {
             appStore.projectID = project.id;
           }}

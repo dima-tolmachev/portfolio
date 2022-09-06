@@ -1,0 +1,23 @@
+.hello {
+  display: block;
+  font-size: 5em;
+}
+
+.section-heading {
+  font-size: 1.5em;
+}
+
+.short-bio,
+.refference {
+  font-size: 1.15em;
+}
+
+.resumeLink {
+  text-align: center;
+  cursor: pointer;
+  background-color: #25272a;
+}
+
+label {
+  color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}

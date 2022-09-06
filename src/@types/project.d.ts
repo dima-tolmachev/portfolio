@@ -1,3 +1,4 @@
+import { carousel } from './carousel';
 import { link } from './link';
 
 export interface projectObject {
@@ -6,7 +7,7 @@ export interface projectObject {
   purpose?: string | undefined;
   description: string[];
   links?: link[];
-  stack: string[];
+  stack: carousel[];
   source: string | undefined;
   preview: string | undefined;
   images: string[];

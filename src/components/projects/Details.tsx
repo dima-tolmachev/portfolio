@@ -3,8 +3,7 @@ import { ReactNode } from 'react';
 import { appStore } from '../../stores/app-store';
 
 const Details = () => {
-  const projectsList = appStore.projectsList;
-  const projectID: number = appStore.projectID;
+  const { projectsList, projectID } = appStore;
   if (!(projectID - 1 in projectsList)) window.location.reload();
   const project = projectsList[projectID - 1];
 
@@ -27,11 +26,9 @@ const Details = () => {
       </label>
       <h2>{project.title}</h2>
       <p>
-        <b>Stack:</b> {project.stack.join(', ')}
-      </p>
-      <hr />
-      <p>
-        <b>Description</b>
+        {project.stack.map(el => {
+          return <img src={el.picPath} alt={el.title} width="25px" style={{ marginRight: "10px" }} />
+        })}
       </p>
       {project.description.map(
         (text: string, index: number): ReactNode => (
@@ -42,16 +39,15 @@ const Details = () => {
       {project.links?.length ? (
         <>
           <hr />
-
-          <p>
-            <b>Links</b>
-          </p>
           {project.links.map(
             (content: any, index: number): ReactNode => (
-              <a key={index} href={content.url}>
-                {index + 1 + '. ' + content.label}
-                <br />
-              </a>
+              <label>
+                {index + 1 + '. '}
+                <a key={index} href={content.url}>
+                  {content.label}
+                  <br />
+                </a>
+              </label>
             ),
           )}
 
