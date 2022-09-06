@@ -26,8 +26,15 @@ const Details = () => {
       </label>
       <h2>{project.title}</h2>
       <p>
-        {project.stack.map(el => {
-          return <img src={el.picPath} alt={el.title} width="25px" style={{ marginRight: "10px" }} />
+        {project.stack.map((el) => {
+          return (
+            <img
+              src={el.picPath}
+              alt={el.title}
+              width="25px"
+              style={{ marginRight: '10px' }}
+            />
+          );
         })}
       </p>
       {project.description.map(

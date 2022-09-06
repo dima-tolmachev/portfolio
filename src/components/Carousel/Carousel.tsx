@@ -16,7 +16,7 @@ const Carousel = (props: Props) => {
   return (
     <div className="card">
       {(prompt === false || prompt === undefined) && <ReactTooltip />}
-      <label className='section-heading'>{title}</label>
+      <label className="section-heading">{title}</label>
       <div className="carousel">
         {items &&
           items.map((item, index) => (
@@ -25,14 +25,12 @@ const Carousel = (props: Props) => {
               data-tip={prompt && item.title}
               onClick={() => item.link && redirect(window, item.link)}
               key={index}
-              style={
-                {
-                  backgroundImage: `url(${item.picPath}) `,
-                  backgroundOrigin: 'content-box',
-                  padding: '10px',
-                  cursor: item.link || item.copy ? 'pointer' : 'auto'
-                }
-              }
+              style={{
+                backgroundImage: `url(${item.picPath}) `,
+                backgroundOrigin: 'content-box',
+                padding: '10px',
+                cursor: item.link || item.copy ? 'pointer' : 'auto',
+              }}
             />
           ))}
       </div>

@@ -5,8 +5,10 @@ import './style.scss';
 
 const Filter = () => {
   const projectsList = appStore.projectsList;
-  const allProjectsAmount  = projectsList.length;
-  const commercialAmount = projectsList.filter((el: projectObject) => el.type === 3).length;   
+  const allProjectsAmount = projectsList.length;
+  const commercialAmount = projectsList.filter(
+    (el: projectObject) => el.type === 3,
+  ).length;
   const uncommercialAmount = allProjectsAmount - commercialAmount;
 
   return (

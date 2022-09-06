@@ -1,5 +1,5 @@
 const redirect = (window: Window, link: string) => {
-    window.location.href = link;
+  window.location.href = link;
 };
 
 export default redirect;
