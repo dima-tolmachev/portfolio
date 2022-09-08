@@ -89,4 +89,13 @@ a {
   .content {
     display: block !important;
   }
+
+  .filter {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  select {
+    width: 100%;
+  }
 }

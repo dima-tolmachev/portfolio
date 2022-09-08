@@ -3,16 +3,22 @@
 .filter {
   width: 100%;
   display: flex;
+  align-items: center;
+  gap: 30%;
+}
+
+h2 {
+  flex: 1;
+  font-size: 20px;
 }
 
 select {
   flex: 1;
+  height: 40px;
   min-width: 30%;
-  height: 45px;
   font-size: 20px;
   background-color: $purple-color;
   border-radius: 5px;
   border: 0px;
   color: $text-color;
-  margin-top: 5px;
 }
