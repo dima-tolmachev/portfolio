@@ -21,7 +21,7 @@ const Carousel = (props: Props) => {
         {items &&
           items.map((item, index) => (
             <div
-              className={`logo pressable ${size}Logo`}
+              className={`logo ${size}Logo`}
               data-tip={prompt && item.title}
               onClick={() => item.link && redirect(window, item.link)}
               key={index}

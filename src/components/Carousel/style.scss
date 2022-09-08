@@ -1,3 +1,5 @@
+@import 'src/variables';
+
 .carousel {
   display: flex;
   gap: 2.5%;
@@ -6,4 +8,32 @@
   scroll-behavior: smooth;
   margin-top: 15px;
   scroll-behavior: smooth;
+}
+
+.logo {
+  border-radius: 5px;
+  background-color: $purple-color;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.smallLogo {
+  width: 15px;
+  height: 15px;
+}
+.mediumLogo {
+  width: 20px;
+  height: 20px;
+}
+.largeLogo {
+  width: 45px;
+  height: 45px;
+}
+
+.pressable {
+  background-color: $gray-dark;
 }

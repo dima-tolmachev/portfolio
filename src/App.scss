@@ -49,30 +49,6 @@ a {
   width: 30%;
 }
 
-.logo {
-  border-radius: 5px;
-  background-color: $purple-color;
-  scroll-snap-align: start;
-  flex-shrink: 0;
-  margin-bottom: 10px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.smallLogo {
-  width: 15px;
-  height: 15px;
-}
-.mediumLogo {
-  width: 20px;
-  height: 20px;
-}
-.largeLogo {
-  width: 45px;
-  height: 45px;
-}
-
 ::-webkit-scrollbar {
   margin-top: 10px;
   height: 10px;
