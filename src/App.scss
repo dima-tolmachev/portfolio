@@ -64,20 +64,6 @@ a {
   background: transparent;
 }
 
-.bubble,
-.details {
-  animation: animatedImage 0.15s linear;
-}
-
-@keyframes animatedImage {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @media (max-width: 760px) {
   .App {
     position: relative;

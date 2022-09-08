@@ -18,13 +18,16 @@ const ProjectCard = (props: Props) => {
   const { projectsList, projectID } = appStore;
   const target = projectID ? projectsList[projectID - 1] : undefined;
 
+  const handleClick = () => {
+    projectID === project.id ? appStore.projectID = undefined :
+    appStore.projectID = project.id;
+  };
+
   return (
     <>
       <Card
         className={`project-card ${project.id === projectID ? 'selected' : ''}`}
-        onClick={(e) => {
-          appStore.projectID = project.id;
-        }}
+        onClick={handleClick}
         key={projectID}
       >
         <CardActionArea>
