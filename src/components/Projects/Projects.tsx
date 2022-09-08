@@ -1,7 +1,7 @@
 import { observer } from 'mobx-react-lite';
 import Filter from '../Filter/Filter';
-import Grid from './Grid';
-import Details from './Details';
+import ProjectsGrid from '../ProjectsGrid/ProjectsGrid';
+import Details from '../Details/Details';
 import { appStore } from '../../stores/app-store';
 
 const Projects = () => {
@@ -10,7 +10,7 @@ const Projects = () => {
       {appStore.projectID === 0 ? (
         <>
           <Filter />
-          <Grid />
+          <ProjectsGrid />
         </>
       ) : (
         <Details />
