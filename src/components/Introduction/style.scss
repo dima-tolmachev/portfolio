@@ -19,11 +19,6 @@
   -webkit-text-fill-color: transparent;
 
   animation: shine 1.5s linear;
-  @keyframes shine {
-    to {
-      background-position: 200% center;
-    }
-  }
 }
 
 .section-heading {
@@ -45,9 +40,23 @@
   text-align: center;
   cursor: pointer;
   background-color: #25272a;
+  color: $text-color;
+  width: 100%;
+  border: 0;
+  font-size: 1.5em;
+}
+
+.resumeLink:hover {
+  background-color: $gray-light;
 }
 
 .resumeLink > label {
   font-size: 1.5em;
   cursor: pointer;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
 }
