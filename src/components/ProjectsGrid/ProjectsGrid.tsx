@@ -2,7 +2,6 @@ import { observer } from 'mobx-react-lite';
 import { appStore } from '../../stores/app-store';
 import { projectObject } from '../../@types/project';
 import ProjectCard from '../ProjectCard/ProjectCard';
-import Brief from '../Brief/Brief';
 import './style.scss';
 
 const ProjectsGrid = () => {

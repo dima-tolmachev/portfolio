@@ -21,7 +21,7 @@ const ProjectCard = (props: Props) => {
   return (
     <>
       <Card
-        className={`project-card ${(project.id === projectID ? 'selected' : '')}`}
+        className={`project-card ${project.id === projectID ? 'selected' : ''}`}
         onClick={(e) => {
           appStore.projectID = project.id;
         }}
@@ -30,12 +30,10 @@ const ProjectCard = (props: Props) => {
         <CardActionArea>
           <CardMedia component="img" height="100" image={project.preview} />
           <CardContent>
-            <Typography gutterBottom variant="h6" >
+            <Typography gutterBottom variant="h6">
               {project.title}
             </Typography>
-            <Typography>
-              {project.brief}
-            </Typography>
+            <Typography>{project.brief}</Typography>
           </CardContent>
         </CardActionArea>
       </Card>

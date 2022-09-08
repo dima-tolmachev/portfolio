@@ -41,10 +41,9 @@
   cursor: pointer;
   background-color: #25272a;
   color: $text-color;
-  
 }
 
-.resumeLink:hover > label  {
+.resumeLink:hover > label {
   background: linear-gradient(
     to left,
     $text-color 20%,

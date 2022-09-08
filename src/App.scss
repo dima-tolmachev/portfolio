@@ -1,7 +1,9 @@
+@import 'src/variables';
+
 html,
 body {
-  background-color: #18181c;
-  color: white;
+  background-color: $background-color;
+  color: $text-color;
 }
 
 ::-webkit-scrollbar {
@@ -13,8 +15,20 @@ body {
   line-height: 1.2;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+p,
 a {
-  color: white;
+  color: $text-color;
+}
+
+.full-width {
+  width: 100%;
 }
 
 .App {
@@ -26,13 +40,18 @@ a {
   padding: 10px;
 }
 
+.content {
+  display: flex;
+  gap: 10px;
+}
+
 .leftBar {
   width: 30%;
 }
 
 .logo {
   border-radius: 5px;
-  background-color: #494161;
+  background-color: $purple-color;
   scroll-snap-align: start;
   flex-shrink: 0;
   margin-bottom: 10px;
@@ -54,37 +73,19 @@ a {
   height: 45px;
 }
 
-.carousel {
-  display: flex;
-  gap: 2.5%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  margin-top: 15px;
-  scroll-behavior: smooth;
-}
-
 ::-webkit-scrollbar {
   margin-top: 10px;
   height: 10px;
-  background-color: #414141;
+  background-color: $scrollbar-bg-color;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #252325;
+  background: $gray-dark;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track {
   background: transparent;
-}
-
-.contactWay {
-  margin-top: 15px;
-  display: flex;
-  gap: 10px;
-  justify-content: left;
-  align-items: center;
 }
 
 .bubble,

@@ -1,12 +1,12 @@
 @import 'src/variables';
 
 .project-card {
-    max-width: 345px !important;
-    background-color: $gray-dark !important;
-    color: $text-color !important;
-    border-radius: 5px !important;
+  max-width: 345px !important;
+  background-color: $gray-dark !important;
+  color: $text-color !important;
+  border-radius: 5px !important;
 }
 
 .selected {
-    background-color: $gray-light !important;
+  background-color: $gray-light !important;
 }

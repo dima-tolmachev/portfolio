@@ -1,0 +1,9 @@
+.carousel {
+  display: flex;
+  gap: 2.5%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  margin-top: 15px;
+  scroll-behavior: smooth;
+}

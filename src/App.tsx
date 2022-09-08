@@ -5,13 +5,10 @@ import './App.scss';
 const App = () => {
   return (
     <div className="App">
-      <div
-        className="content"
-        style={{ display: 'flex', gap: '10px', width: '100%' }}
-      >
+      <div className="full-width content">
         <Introduction />
         <br />
-        <div style={{ width: '100%' }}>
+        <div className="full-width">
           <Projects />
         </div>
       </div>
