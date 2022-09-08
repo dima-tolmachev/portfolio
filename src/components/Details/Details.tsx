@@ -1,6 +1,7 @@
 import { observer } from 'mobx-react-lite';
 import { ReactNode } from 'react';
 import { appStore } from '../../stores/app-store';
+import './style.scss';
 
 const Details = () => {
   const { projectsList, projectID } = appStore;
@@ -10,13 +11,9 @@ const Details = () => {
   return (
     <div className={'details'}>
       <label
+        className="go-back"
         style={{
-          fontSize: '20px',
-          borderBottom: '2px',
-          borderBottomColor: 'white',
-          cursor: 'pointer',
-          color: 'white',
-          float: 'right',
+          
         }}
         onClick={() => {
           appStore.projectID = 0;
