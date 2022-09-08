@@ -4,21 +4,21 @@ import { projectObject } from '../../@types/project';
 import ProjectCard from '../ProjectCard/ProjectCard';
 
 const ProjectsGrid = () => {
-    var projects: projectObject[] = appStore.projectsList;
+  var projects: projectObject[] = appStore.projectsList;
 
-    if (appStore.order !== 1) {
-        projects = projects.filter((project) => {
-            return project.type === appStore.order;
-        });
-    }
+  if (appStore.order !== 1) {
+    projects = projects.filter((project) => {
+      return project.type === appStore.order;
+    });
+  }
 
-    return (
-        <div className="grid">
-            {projects.map((project, index) => (
-                <ProjectCard project={project} index={index} />
-            ))}
-        </div>
-    );
+  return (
+    <div className="grid">
+      {projects.map((project, index) => (
+        <ProjectCard project={project} index={index} />
+      ))}
+    </div>
+  );
 };
 
 export default observer(ProjectsGrid);

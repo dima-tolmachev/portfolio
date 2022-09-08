@@ -33,7 +33,7 @@ const Introduction = () => {
         className="card resumeLink"
         onClick={() => redirect(window, '/resume.pdf')}
       >
-        <label style={{ fontSize: '1.5em', cursor: 'pointer' }}>Resume</label>
+        <label>Resume</label>
       </div>
     </div>
   );
