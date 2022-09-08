@@ -29,12 +29,12 @@ const Introduction = () => {
       />
       <Carousel size="large" title="Contact me" items={contacts} />
 
-      <button
+      <div
         className="card resumeLink"
         onClick={() => redirect(window, '/resume.pdf')}
       >
-        Resume
-      </button>
+        <label>Resume</label>
+      </div>
     </div>
   );
 };
