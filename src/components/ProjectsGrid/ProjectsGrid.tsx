@@ -2,6 +2,8 @@ import { observer } from 'mobx-react-lite';
 import { appStore } from '../../stores/app-store';
 import { projectObject } from '../../@types/project';
 import ProjectCard from '../ProjectCard/ProjectCard';
+import Brief from '../Brief/Brief';
+import './style.scss';
 
 const ProjectsGrid = () => {
   var projects: projectObject[] = appStore.projectsList;
@@ -15,7 +17,7 @@ const ProjectsGrid = () => {
   return (
     <div className="grid">
       {projects.map((project, index) => (
-        <ProjectCard project={project} index={index} />
+        <ProjectCard project={project} key={index} />
       ))}
     </div>
   );

@@ -4,7 +4,7 @@ import { projectObject } from '../@types/project';
 import { carousel } from '../@types/carousel';
 
 class AppStore {
-  projectID: number = 0;
+  projectID: number | undefined;
   projectsList: projectObject[] = data.projects;
   order: number = 1;
   contacts: carousel[] = data['contacts'];

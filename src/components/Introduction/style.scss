@@ -35,10 +35,16 @@
   font-size: 1.15em;
 }
 
+.card {
+  background-color: #35383a;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
 .resumeLink {
   text-align: center;
   cursor: pointer;
-  background-color: #25272a !important;
+  background-color: #25272a;
 }
 
 .resumeLink > label {
