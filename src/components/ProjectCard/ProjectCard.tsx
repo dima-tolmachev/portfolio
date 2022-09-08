@@ -7,6 +7,7 @@ import { CardActionArea } from '@mui/material';
 import { projectObject } from '../../@types/project';
 import Brief from '../Brief/Brief';
 import { observer } from 'mobx-react';
+import './style.scss';
 
 interface Props {
   project: projectObject;
@@ -20,25 +21,19 @@ const ProjectCard = (props: Props) => {
   return (
     <>
       <Card
-        className="bubble"
+        className={`project-card ${(project.id === projectID ? 'selected' : '')}`}
         onClick={(e) => {
           appStore.projectID = project.id;
         }}
         key={projectID}
-        sx={{
-          maxWidth: 345,
-          backgroundColor: '#25272A',
-          color: 'white',
-          borderRadius: '5px',
-        }}
       >
         <CardActionArea>
           <CardMedia component="img" height="100" image={project.preview} />
           <CardContent>
-            <Typography gutterBottom variant="h6" component="div">
+            <Typography gutterBottom variant="h6" >
               {project.title}
             </Typography>
-            <Typography variant="body2" color="text">
+            <Typography>
               {project.brief}
             </Typography>
           </CardContent>
