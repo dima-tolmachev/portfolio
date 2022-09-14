@@ -79,13 +79,10 @@
   ],
   "projects": [
     {
-      "title": "Does it count?",
-      "brief": "This site. Is it also counts as an project?",
+      "title": "This site",
+      "brief": "Also counts as an project, I guess",
       "purpose": "Create a showcase for my projects",
-      "description": [
-        "I have built a site portfolio (this one that you are visiting right now) on TypeScript using the web framework React JS for collecting my projects in one place with descriptions and pictures. You are welcome, enjoy.",
-        "It is kinda weird to add a screenshot of the site you are on now but..."
-      ],
+      "description": "This site that you are visiting right now. It is written in TypeScript using the UI framework React. The purpose is to collect my projects in one place. You are welcome here, and please enjoy. ",
       "stack": [
         {
           "title": "TypeScript",
@@ -101,19 +98,13 @@
       ],
       "source": "https://github.com/dima-tolmachev/personal",
       "preview": "./pics/projects/personal.png",
-      "images": ["./pics/projects/recursion.png"],
       "type": 3,
       "id": 1
     },
     {
       "title": "Degosh",
-      "brief": "It is a bot for buying limited sneakers & NFTs",
-      "description": [
-        "This application helps people to buy collectible staff. It is a bot for buying limited sneakers & NFTs. Degosh used to support a lot of retailers such as supreme, Adidas/Yeezy, Kith and Shopify. Application much increased chances to let users buy whatever they want on special releases",
-        "We got a lot of positive feedback from users who successfully bought limited items using this bot (you can see users' reports on our discord on the #success channel).",
-        "I built an authentication system for this bot using Node JS and Express JS and MongoDB - a simple and secure system, applied to auth system discord bot and web application (the bot). It was hosted on Ubuntu Server, mostly using JavaScript",
-        "The project has been sold to Quasar."
-      ],
+      "brief": "Smart hands-free automation",
+      "description": "Application for automation purshesing to buy collectible staff. It is a bot for buying limited sneakers & NFTs. Degosh used to support a lot of retailers such as supreme, Adidas/Yeezy, Kith and Shopify. Application much increased chances to let users buy whatever they want on special releases. We got a lot of positive feedback from users who successfully bought limited items using this bot (you can see users' reports on our discord on the #success channel).",
       "links": [
         {
           "label": "Project's discord",
@@ -147,16 +138,13 @@
       ],
       "source": "",
       "preview": "./pics/projects/degosh.png",
-      "images": ["./pics/projects/degosh.png"],
       "type": 2,
       "id": 2
     },
     {
-      "title": "Linear algebra library",
-      "brief": "A collection of Vector and Matrix classes",
-      "description": [
-        "It is a library written in TypeScript that includes two classes: Vector and Matrix and some methods inside them to do calculations. Also, a bunch of Mocha/Chai tests is available. This package has been published into npm."
-      ],
+      "title": "LATS",
+      "brief": "Linear algebra library, Vector and Matrix classes",
+      "description": "It is a library written in TypeScript that includes two classes: Vector and Matrix and some methods inside them to do calculations. Also, a bunch of Mocha/Chai tests is available. This package has been published into npm.",
       "links": [
         {
           "label": "Documentation",
@@ -184,17 +172,13 @@
       ],
       "source": "https://github.com/dima-tolmachev/typescript-linear-algebra",
       "preview": "./pics/projects/lats.png",
-      "images": ["./pics/projects/lats.png"],
       "type": 3,
       "id": 3
     },
     {
-      "title": "Shelter+ Extension",
-      "brief": "It used to buy NFTs and limited sneakers",
-      "description": [
-        "It is an extension for Google Chrome browser used to automatically purchase limited sneakers and NFTs.",
-        "Shelter+ is a private discord community of people interested in collecting or reselling limited stuff. This program is available only for members of this community."
-      ],
+      "title": "Shelter+",
+      "brief": "Minting NFTs and buying limited sneakers",
+      "description": "An extension for Google Chrome that helps purchase limited sneakers and NFTs. Shelter+ is a private discord community of people interested in collecting or reselling limited stuff. This program is available only for members of this community.",
       "links": [
         {
           "label": "Shelter+ (the customer company)",
@@ -226,17 +210,13 @@
       ],
       "source": "",
       "preview": "./pics/projects/shelterplus.png",
-      "images": ["./pics/projects/shelterplus.png"],
       "type": 2,
       "id": 4
     },
     {
       "title": "Web scrapers",
       "brief": "Checking availiablility of products on retailers' sites",
-      "description": [
-        "I built some web scrapers used to notify members of the Quasar private discord community when XBOXes and PS5s (and other short-supply goods) are available. Users successfully buy whatever they want with this custom notification system on every restock.",
-        "Most of them are written in Python using the request library."
-      ],
+      "description": "I built some web scrapers to notify members of the Quasar community when Xboxes and PS5s (and other short-supply goods) are available. Users successfully buy whatever they want with this custom notification system on every restock. Interface for configuring monitors written with React.",
       "links": [
         {
           "label": "Quasar (the customer company)",
@@ -251,21 +231,21 @@
         {
           "title": "Node JS (javascript runtime)",
           "picPath": "./pics/technologies/nodejs.svg"
+        },
+        {
+          "title": "React JS",
+          "picPath": "./pics/technologies/react.png"
         }
       ],
       "source": "",
       "preview": "./pics/projects/monitors.png",
-      "images": ["./pics/projects/webscrapers.gif"],
       "type": 2,
       "id": 5
     },
     {
       "title": "Sorting visualization",
       "brief": "Implemented 4 different sorting algorithms",
-      "description": [
-        "I build a web-based application to animate some sorting algorithms.",
-        "It works on the following sorting algorithms: Bubble sort, Quick sort, Selection sort and Merge sort."
-      ],
+      "description": "I build a web-based application to animate some sorting algorithms. It works on the following sorting algorithms: Bubble sort, Quick sort, Selection sort and Merge sort.",
       "links": [
         {
           "label": "Try now",
@@ -292,9 +272,334 @@
       ],
       "source": "https://github.com/dima-tolmachev/react-sorting-visualization",
       "preview": "./pics/projects/sorting.png",
-      "images": ["./pics/projects/sorting.png"],
       "type": 3,
       "id": 6
+    },
+    {
+      "title": "Dashbot",
+      "brief": "Dashboard for your private discord server",
+      "description": "The dashboard for your private discord server that helps you control subscription and collect renewal fees from participants.",
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/dima-tolmachev/react-sorting-visualization/"
+        }
+      ],
+      "stack": [
+        {
+          "title": "TypeScript",
+          "picPath": "./pics/technologies/typescript.svg"
+        },
+        {
+          "title": "Node JS (javascript runtime)",
+          "picPath": "./pics/technologies/nodejs.svg"
+        },
+        {
+          "title": "Discord JS",
+          "picPath": "./pics/technologies/discordJS.svg"
+        },
+        {
+          "title": "Docker",
+          "picPath": "./pics/technologies/docker.svg"
+        },
+        {
+          "title": "Express JS",
+          "picPath": "./pics/technologies/express.svg"
+        }
+      ],
+      "source": "https://github.com/dima-tolmachev/dashbot",
+      "preview": "./pics/projects/dashbot.png",
+      "type": 3,
+      "id": 7
+    },
+    {
+      "title": "Discord Files Parser",
+      "brief": "Yet another discord tool",
+      "description": "Download any files from your Discord server easily.",
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/dima-tolmachev/discord-files-parser"
+        }
+      ],
+      "stack": [
+        {
+          "title": "Python",
+          "picPath": "./pics/pls/python.svg"
+        },
+        {
+          "title": "Discord JS",
+          "picPath": "./pics/technologies/discordJS.svg"
+        }
+      ],
+      "source": "https://github.com/dima-tolmachev/discord-files-parser",
+      "preview": "./pics/projects/files-parser.png",
+      "type": 3,
+      "id": 8
+    },
+    {
+      "title": "Race",
+      "brief": "SDL2, WASM game",
+      "description": "Simple race game written in C with SDL2 lib, then compiled with WASM.",
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/dima-tolmachev/race"
+        }
+      ],
+      "stack": [
+        {
+          "title": "C programming language",
+          "picPath": "./pics/pls/c.svg"
+        },
+        {
+          "title": "SDL2",
+          "picPath": "./pics/technologies/sdl.svg"
+        },
+        {
+          "title": "WASM",
+          "picPath": "./pics/technologies/wasm.svg"
+        }
+      ],
+      "source": "https://github.com/dima-tolmachev/discord-files-parser",
+      "preview": "./pics/projects/race.png",
+      "type": 3,
+      "id": 9
+    },
+    {
+      "title": "Etherscan QT",
+      "brief": "Quick tasks for bot's API",
+      "description": "An extension for Tokenizer automation bot for creating quick tasks from Etherscan page. It scrapes transaction details and prepare bot to repeat it multiple times.",
+      "stack": [
+        {
+          "title": "TypeScript",
+          "picPath": "./pics/technologies/typescript.svg"
+        },
+        {
+          "title": "Webpack",
+          "picPath": "./pics/technologies/webpack.svg"
+        }
+      ],
+      "source": "",
+      "preview": "./pics/projects/etherscan.png",
+      "type": 2,
+      "id": 10
+    },
+    {
+      "title": "Famous Fox Sniper",
+      "brief": "Solana smart contract event listener",
+      "description": "That application tracks Famous Fox's smart contract in the Solana blockchain, waiting for lowball offers to buy SPL Tokens at the lowest possible time. It creates special account automatically before buying token.",
+      "stack": [
+        {
+          "title": "TypeScript",
+          "picPath": "./pics/technologies/typescript.svg"
+        },
+        {
+          "title": "Solana",
+          "picPath": "./pics/technologies/solana.svg"
+        },
+        {
+          "title": "Webpack",
+          "picPath": "./pics/technologies/webpack.svg"
+        }
+      ],
+      "source": "",
+      "preview": "./pics/projects/fff.png",
+      "type": 2,
+      "id": 11
+    },
+    {
+      "title": "Near NFT minter",
+      "brief": "Tokenizer's module",
+      "description": "Module for Tokenizer bot, that allowed our users to successfully mint a significant amount of NFTs on Near blockchain.",
+      "stack": [
+        {
+          "title": "TypeScript",
+          "picPath": "./pics/technologies/typescript.svg"
+        },
+        {
+          "title": "Near",
+          "picPath": "./pics/technologies/near.svg"
+        },
+        {
+          "title": "Webpack",
+          "picPath": "./pics/technologies/webpack.svg"
+        }
+      ],
+      "source": "",
+      "preview": "./pics/projects/near.png",
+      "type": 2,
+      "id": 12
+    },
+    {
+      "title": "CMv2 Minter",
+      "brief": "Solana NFTs minter",
+      "description": "Solution for automated minting non-fungible tokens on Metaplex Candy Machine v2 (Solana network).",
+      "stack": [
+        {
+          "title": "TypeScript",
+          "picPath": "./pics/technologies/typescript.svg"
+        },
+        {
+          "title": "Solana",
+          "picPath": "./pics/technologies/solana.svg"
+        },
+        {
+          "title": "Webpack",
+          "picPath": "./pics/technologies/webpack.svg"
+        }
+      ],
+      "source": "",
+      "preview": "./pics/projects/cmv2.png",
+      "type": 2,
+      "id": 13
+    },
+    {
+      "title": "Managment bot",
+      "brief": "Recurrent payment system and managing tools",
+      "description": "The program includes a recurrent payment system in BEP20 and TRC20 networks, analyzes user habits and activity, and also allows to control of members' memberships of the private community on Discord.",
+      "stack": [
+        {
+          "title": "TypeScript",
+          "picPath": "./pics/technologies/typescript.svg"
+        },
+        {
+          "title": "Node JS (javascript runtime)",
+          "picPath": "./pics/technologies/nodejs.svg"
+        },
+        {
+          "title": "Express JS",
+          "picPath": "./pics/technologies/express.svg"
+        },
+        {
+          "title": "Postgre (SQL database)",
+          "picPath": "./pics/technologies/postgre.svg"
+        },
+        {
+          "title": "React JS",
+          "picPath": "./pics/technologies/react.png"
+        },
+        {
+          "title": "Discord JS",
+          "picPath": "./pics/technologies/discordJS.svg"
+        },
+        {
+          "title": "NGINX",
+          "picPath": "./pics/technologies/nginx.svg"
+        },
+        {
+          "title": "Docker",
+          "picPath": "./pics/technologies/docker.svg"
+        },
+        {
+          "title": "Ubuntu Server (UNIX based OS)",
+          "picPath": "./pics/technologies/ubuntu.svg"
+        }
+      ],
+      "source": "",
+      "preview": "./pics/projects/recurrent.png",
+      "type": 2,
+      "id": 14
+    },
+    {
+      "title": "Opensea monitor",
+      "brief": "Lowball monitor for Etherium NFT collections",
+      "description": "Electron + React app to monitor Ethereum NFT lowball listings on Opensea marketplace.",
+      "stack": [
+        {
+          "title": "TypeScript",
+          "picPath": "./pics/technologies/typescript.svg"
+        },
+        {
+          "title": "Node JS (javascript runtime)",
+          "picPath": "./pics/technologies/nodejs.svg"
+        },
+        {
+          "title": "Express JS",
+          "picPath": "./pics/technologies/express.svg"
+        },
+        {
+          "title": "React JS",
+          "picPath": "./pics/technologies/react.png"
+        },
+        {
+          "title": "Electron JS",
+          "picPath": "./pics/technologies/electron.svg"
+        }
+      ],
+      "source": "",
+      "preview": "./pics/projects/opensea.png",
+      "type": 2,
+      "id": 15
+    },
+    {
+      "title": "Refferal program",
+      "brief": "Telegram promotion bot",
+      "description": "Python application used for a temporary promotion \"bring 3 friends, get a month of use\".",
+      "stack": [
+        {
+          "title": "Python",
+          "picPath": "./pics/pls/python.svg"
+        },
+        {
+          "title": "Telegram",
+          "picPath": "./pics/contacts/telegram.svg"
+        },
+        {
+          "title": "Discord JS",
+          "picPath": "./pics/technologies/discordJS.svg"
+        },
+        {
+          "title": "Mongo DB (NO-SQL database)",
+          "picPath": "./pics/technologies/mongo.svg"
+        }
+      ],
+      "source": "",
+      "preview": "./pics/projects/telegram.png",
+      "type": 2,
+      "id": 16
+    },
+    {
+      "title": "Captcha service",
+      "brief": "Preventing spam",
+      "description": "Solution to protect Discord guild from spam and bot attack.",
+      "stack": [
+        {
+          "title": "TypeScript",
+          "picPath": "./pics/technologies/typescript.svg"
+        },
+        {
+          "title": "Node JS (javascript runtime)",
+          "picPath": "./pics/technologies/nodejs.svg"
+        },
+        {
+          "title": "Discord JS",
+          "picPath": "./pics/technologies/discordJS.svg"
+        }
+      ],
+      "source": "",
+      "preview": "./pics/projects/captcha.png",
+      "type": 2,
+      "id": 17
+    },
+    {
+      "title": "Currency prices",
+      "brief": "Display prices on the Discord server",
+      "description": "Provide your bot token to display current cryptocurrency prices on Discord. Works on Binance API.",
+      "stack": [
+        {
+          "title": "Python",
+          "picPath": "./pics/pls/python.svg"
+        },
+        {
+          "title": "Discord JS",
+          "picPath": "./pics/technologies/discordJS.svg"
+        }
+      ],
+      "source": "",
+      "preview": "./pics/projects/prices.png",
+      "type": 3,
+      "id": 18
     }
   ]
 }

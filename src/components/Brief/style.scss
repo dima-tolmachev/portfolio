@@ -1,8 +1,17 @@
 @import 'src/variables';
 
+h3 {
+  margin: 0;
+}
+
 .brief {
   border-radius: 5px;
+  margin-top: 0;
   padding: 1em;
   background-color: $gray-light;
   grid-column: 1 / -1 !important;
+}
+
+.project-link {
+  display: block;
 }

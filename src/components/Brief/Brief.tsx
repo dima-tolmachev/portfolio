@@ -10,8 +10,9 @@ const Brief = (props: Props) => {
 
   return (
     <div className="brief">
-      <h2>{project.title}</h2>
+      <h3>Description</h3>
       <p>{project.description}</p>
+      <h3>Stack</h3>
       <p>
         {project.stack.map((el) => {
           return (
@@ -24,6 +25,16 @@ const Brief = (props: Props) => {
           );
         })}
       </p>
+
+      <h3>Commercial?</h3>
+      <p>{project.type === 2 ? "Yes" : "No"}</p>
+      
+      {project.links && <h3>Links</h3>}
+      {project.links?.map(el => {
+        return (
+          <a className="project-link" href={el.url}>{el.label}</a>
+        );
+      })}
     </div>
   );
 };
