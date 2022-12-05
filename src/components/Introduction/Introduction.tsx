@@ -14,10 +14,9 @@ const Introduction = () => {
           I'm Dima, a software developer from Moscow
         </label>
       </div>
-
       <Carousel
         size="large"
-        title="Favorite languages"
+        title="Preferred languages"
         items={programmingLanguages}
         prompt={true}
       />
@@ -27,7 +26,13 @@ const Introduction = () => {
         items={technologies}
         prompt={true}
       />
-      <Carousel size="large" title="Contact me" items={contacts} />
+
+      <Carousel
+        size="large"
+        title="Contact me"
+        items={contacts}
+        // prompt={true}
+      />
 
       <div
         className="card resumeLink"

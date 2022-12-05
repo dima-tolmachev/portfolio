@@ -12,7 +12,7 @@ interface Props {
 
 const Carousel = (props: Props) => {
   const { title, items, prompt, size } = props;
-
+  
   return (
     <div className="card">
       {(prompt === false || prompt === undefined) && <ReactTooltip />}

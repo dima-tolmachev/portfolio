@@ -10,6 +10,15 @@ h3 {
   padding: 1em;
   background-color: $gray-light;
   grid-column: 1 / -1 !important;
+
+  p,
+  a {
+    color: #ffffffb3;
+  }
+
+  a {
+    margin-top: 15px;
+  }
 }
 
 .project-link {
